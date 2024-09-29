@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Admin Dashboard</h1>
+            <a href="index.html" class="logout">Logout</a>
+        </header>
+
+        <div class="admin-controls">
+            <h2>Bookings</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Booking ID</th>
+                        <th>Customer Name</th>
+                        <th>Phone</th>
+                        <th>Pickup Location</th>
+                        <th>Drop Location</th>
+                        <th>Pickup Date/Time</th>
+                        <th>Status</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Example data row, you can generate this using PHP from your database -->
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>1234567890</td>
+                        <td>Main St</td>
+                        <td>Central Park</td>
+                        <td>2024-10-01 10:00</td>
+                        <td>Unassigned</td>
+                        <td>
+                            <button class="assign-driver-btn">Assign Driver</button>
+                        </td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

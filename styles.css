@@ -1,0 +1,66 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Headers */
+h1 {
+    color: #333;
+}
+
+/* Login and Registration Sections */
+.login-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.customer-section, .driver-section {
+    width: 45%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="tel"], input[type="date"], input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Dashboard Styles */
+.dashboard {
+    text-align: left;
+}
+
+.dashboard h2 {
+    color: #333;
+}
+
+.dashboard .booking-details, .dashboard .driver-details {
+    margin-top: 20px;
+}
